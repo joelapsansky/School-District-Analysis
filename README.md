@@ -11,7 +11,7 @@ Here are the csv files containing the datasets:
 
 ## Results
 Before performing the analysis, I first had to clean the data by inputting NaN for 9th - graders at Thomas High School.  
-![Thomas NaN](/Resources/Thomas_NaN.png "Thomas NaN")
+![Thomas NaN](/Resources/Thomas_NaN.png "Thomas NaN")  
 I later removed the NaNs and put the clean Thomas High School data into a new DataFrame using the following code:  
 ```
 clean_school_data_complete_df = school_data_complete_df[(school_data_complete_df["school_name"] == "Thomas High School")].dropna()
